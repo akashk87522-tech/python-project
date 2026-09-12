@@ -540,3 +540,9 @@ if list_1==list1:
 else:
     print("not palindrom")
 
+i=1
+while i<=10:
+    print(i)
+    i+= 1
+
+
