@@ -472,9 +472,7 @@ b = 6
 # list.insert(2,"Guvava")
 # print(list)
 
-# list= [1,2,3,4,5,6]
-
-# list.insert(1,8)
+# list= [1,2,3,4,5,6]d list.insert(1,8) # index wise value fill krta hai 
 # print(list)
 
 # list.insert(3,10)
@@ -488,4 +486,57 @@ b = 6
 
 # list.reverse()
 # print(list)
+
+# list= [1,2,3,4,5,6]
+
+# list.remove(2) # remove function only used for inside the value of list to delete.
+# print(list)
+
+# # pop function delete index wise 
+# list.pop(1)
+# print(list)
+
+
+# # write a programme ask to user fav 3 movies and convert into list
+#1st method to write :-
+
+# movies= []
+# mov= input("Enter your 1st movie:")
+# movies.append(mov)
+# mov= input("Enter your 2st movie:")
+# movies.append(mov)
+# mov= input("Enter your 3st movie:")
+# movies.append(mov)
+# print(movies)
+
+#2nd method to write this programme:-
+
+# movies=[]
+
+# movies.append(input("Enter your 1st fav Movie:"))
+# movies.append(input("Enter your 2st fav Movie:"))
+# movies.append(input("Enter your 3st fav Movie:"))
+# print(movies)
+
+# palindrome list creating method
+# if value inside the list forword direction reading shame and reversed reading same then list is palindrome list 
+# list= [1,2,3,3,2,1]
+# list.copy()
+# print(list)
+# list.reverse()
+# print(list)
+
+# list= ["racecar"]
+# list.copy()
+# print(list)
+# list.reverse()
+# print(list)
+
+list1= ["racecar"]
+list_1= list1.copy()
+list_1.reverse()
+if list_1==list1:
+    print("Palindrom")
+else:
+    print("not palindrom")
 
