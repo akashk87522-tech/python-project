@@ -532,17 +532,168 @@ b = 6
 # list.reverse()
 # print(list)
 
-list1= ["racecar"]
-list_1= list1.copy()
-list_1.reverse()
-if list_1==list1:
-    print("Palindrom")
-else:
-    print("not palindrom")
+# list1= ["racecar"]
+# list_1= list1.copy()
+# list_1.reverse()
+# if list_1==list1:
+#     print("Palindrom")
+# else:
+#     print("not palindrom")
 
-i=1
-while i<=10:
-    print(i)
-    i+= 1
+# i=1
+# while i<=10:
+#     print(i)
+#     i+= 1
 
 
+# COUNT THE FOLLOWING GRADE:
+# Grade = ["c", "d", "a", "a", "b","b","a"]
+
+# print(Grade.count("b"))
+
+# print(Grade.sort())
+# print(Grade)
+
+
+
+# dict = {
+#     "key" : "Values",
+#     "name" : "Akash",
+#     "age" : 24,
+#     "Course" : "data Analyst"
+
+# }
+# print(dict)
+
+# dict["name"]= "Akash Kumar Chaudhary" 
+# print(dict)
+# dict ["Course"] = "Data Analyst"
+# dict ["Course"]= "python"
+# print(dict)
+
+# nested dictionary
+
+# Student = {
+#     "Name" : "Akash Kumar Chaudhary",
+#     "Marks" : { 
+#         "Python" : 80,
+#         "SQL" : 90,
+#         "Excel" : 85,
+#         "Java" : 50
+    
+#     }
+# }
+
+# print(Student)
+# print(len(Student))
+# print(Student.keys())
+
+# print(len(list(Student.keys()))) # keys function return us dict keys
+
+# print(len(list(Student.values()))) # values function return us dictionary values 
+
+# print(Student.items()) # item function return us pair of values and keys which insert in dict..
+# print(len(list(Student.items())))
+
+# pairs = list(Student.items()) # we use pair 1 by 1 ex with indexing method 
+# print(pairs[1])
+
+# print(Student["Name2"])  # if key is not valid then this method print a error 
+
+# print(Student.get("Name2"))  # if key is not present in the code then this function return us NONE in output terminal
+
+# if i want to update dictionary then use update function example below: 
+
+# Student.update({"city" : "Lucknow", "state" : "Uttar Pradesh", "mobile number" : 969652369})
+
+# print(Student.items())
+
+# print(len(list(Student.values())))
+
+# set in pyhton 
+
+# collection = {1,2,3,4,"Akash","Neha","India"} 
+# print(collection)
+# print(type(collection))
+
+# if i write duplicate values in set but python ignor them totally and 1 values counts only one time and not nesssary in order example below 
+
+# collection = {1,2,3,4,"Akash","Neha","India",4,2,"India","Akash"} 
+# print(collection)
+# print(len(collection))
+
+# collection = {1,2,3,4,"Akash","Neha","India",4,2,"India","Akash"} 
+
+# collection.add("Anurag") # if we wrote any other element in sets then use function of sets.add()
+# print(collection)
+
+# collection.remove(2) # if we remove any value in sets then it became remove then use function sets.remove()
+# print(collection)
+
+# set1= {1,2,3,4}
+# set2 = {1,2,4,5,6,8}
+
+# we can use union function in the pairs  of joining unique values in boths sets 
+
+# unique= set1.union(set2)
+# print(unique)
+
+# print(set1.intersection(set2)) # intersection function sort only common values in the both sets 
+
+
+# practice questions
+
+# info = {
+#     "sents" : {
+#         "table" : ("a piece of fruniture", "list of facts and figure"),
+#         "cat" : "a small animal"
+#     }
+            
+# }
+
+# print(info)
+# # print(info.keys())
+# # print(info.items())
+# # print(info.values())
+# print(info["sents"])
+
+# classroom = {
+#     "class1" : "Python",
+#     "class2" : "C++",
+#     "class3" : "Java",
+#     "Class4" : "Javascripts",
+#     "class5" : "C"
+
+# }
+
+# print(classroom)
+# print(len(list(classroom)))
+# print(classroom.values())
+# print(classroom.keys())
+# print(classroom.items())
+# print(classroom["class3"])
+# print(classroom["class5"])
+
+#second method q2
+# subjects = { "Python", "Java","C++", "C", "Pyhton", "Javascripts", "Java", "Python","Java","C++"
+#             ,"Python","Sql"}
+
+# print(type(subjects))
+# print(subjects)
+# print(len(subjects))
+
+# marks = {}
+
+# x = int(input("Enter your chemistry Marks: "))
+# marks.update({"chemistry": x})
+# x = int(input("Enter your Maths Marks: "))
+# marks.update({"Maths": x})
+# x = int(input("Enter your physics Marks: "))
+# marks.update({"Physics": x})
+
+# print(marks)
+
+
+# name = "Akash"
+# print(name[-4:-2])
+# print(name[-3:-1])
